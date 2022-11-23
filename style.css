@@ -1,0 +1,156 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #2b494a;
+}
+
+.log-con {
+  /* display: none; */
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+  position: relative;
+  margin-top: 10%;
+  transition: 1000ms ease;
+}
+
+.log-con h1 {
+  color: #e90c7b;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.log-con h2 {
+  color: #2198d4;
+  margin: 10px 0;
+  text-transform: capitalize;
+}
+
+.inputs {
+  margin: 90px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: #1c2c34;
+  font-weight: bold;
+
+}
+
+.inputs select {
+  margin-right: 20px;
+
+  padding: 5px 20px;
+  border-radius: 10px;
+  color: #2b494a;
+  font-size: 30px;
+  appearance: none;
+}
+
+.inputs select option {
+  color: #1c2c34;
+}
+
+.inputs label {
+  margin: 0 5px;
+  color: aliceblue;
+  font-size: 30px;
+  text-transform: capitalize;
+}
+
+.btn-start {
+  margin: 2px 0;
+  color: #1c2c34;
+  border: none;
+  padding: 20px 40px;
+  font-size: 30px;
+  font-weight: 300;
+  border-radius: 10px;
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: 1000ms ease;
+}
+.btn-start:hover{
+  color: #e90c7b;
+}
+/* timer */
+
+.timer {
+  display: none;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 90px;
+}
+
+.timer .title {
+  color: #121f20;
+  text-transform: capitalize;
+  font-size: 50px;
+  margin: 0 0 70px 0;
+}
+.timer .cards {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.cards .daycard,
+.hourcard,
+.minutscard,
+.minutscard {
+  background-color: #1c2c34;
+  margin: 10px 10px;
+  width: 177px;
+  height: 200px;
+  padding: 20px 10px;
+  align-items: center;
+    box-shadow:0px 0px 20px 1px #121f20;
+}
+
+.cards h1{
+    font-size: 49px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: bold;
+    text-transform: capitalize;
+    color: #e90c7b;
+}
+
+.cards span{
+    text-transform: capitalize;
+    font-size: 40px;
+    font-size: bold;
+    color: #2b494a;
+}
+
+
+.back{
+  margin: 50px 0;
+  padding: 20px 100px;
+  color: #2b494a;
+  font-size: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1000ms ease;
+}
+
+.back:hover{
+  color: #e90c7b;
+}
+
+.message{
+  margin: 10px 0;
+  font-size: 20px;
+  color: rgb(206, 114, 114);
+}
+
+/* end timer  */

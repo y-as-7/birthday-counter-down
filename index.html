@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>counter down</title>
+</head>
+<body>
+    <!-- strat login -->
+    <div id="login" class="log-con">
+        <!--start title -->
+        <h1>welcome to Countdown Timer</h1>
+        <h2>what is  your next birthday ?</h2>
+        <!-- end title -->
+        <!-- start input -->
+        <div class="inputs">
+
+            <!-- start day-con -->
+            <div id="daycon">
+                <label for="day">day</label>
+                <select name="day" id="dayselect">
+                </select>
+            </div>
+            <!-- end day-con -->
+
+            <!-- strat month-con -->
+            <div id="monthcon">
+                <label for="month">month</label>
+                <select name="month" id="monthselect">
+                </select>
+            </div>
+            <!-- end month-con -->
+
+            <!-- strat year-con -->
+            <div id="yearcon">
+                <label for="year">year</label>
+                <select name="year" id="yearselect">
+                </select>
+            </div>
+            <!-- end month-con -->
+
+        </div>
+        <!-- end inputs -->
+        <!-- message -->
+        <p class="message" id="message"></p>
+        <!-- message -->
+        <!-- start btn -->
+        <button class="btn-start" id="btn-start">start</button>
+        <!-- end btn -->
+    </div>
+    <!-- end login -->
+
+<!-- start timer -->
+    <div class="timer">
+
+        <!-- start title -->
+        <h1 class="title">your birthday is after</h1>
+        <!-- end title -->
+
+        <!-- start cards -->
+        <div class="cards">
+            <!-- start day card -->
+            <div class="daycard">
+                <h1 id="day-span"></h1>
+                <span >day</span>
+            </div>
+            <!-- end day card -->
+
+            <!-- start hour card -->
+            <div class="hourcard">
+                <h1 id="hour-span"></h1>
+                <span >hour</span>
+            </div>
+            <!-- end hour card -->
+
+            <!-- start minutes card -->
+            <div class="minutscard">
+                <h1 id="minute-span"></h1>
+                <span >minutes</span>
+            </div>
+            <!-- end minutes card -->
+
+            <!-- start second card -->
+            <div class="minutscard">
+                <h1 id="second-span"></h1>
+                <span >second</span>
+            </div>
+            <!-- end second card -->
+            
+        </div>
+        <!-- end cards -->
+        <button id="back" class="back">back</button>
+    </div>
+    <!-- end timer -->
+    
+    <script src="index.js"></script>
+</body>
+</html>
